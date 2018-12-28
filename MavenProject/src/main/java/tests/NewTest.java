@@ -13,6 +13,8 @@ public class NewTest {
   @Test
   public void openMyBlog() {
  driver.get("https://www.softwaretestingmaterial.com/");
+ String title = driver.getTitle();
+ System.out.println("Title = " +title);
   }
   
   @BeforeClass
